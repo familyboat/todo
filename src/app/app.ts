@@ -20,7 +20,7 @@ export class App {
     {
       title: 'angular todo 应用',
       url: 'https://familyboat.github.io/todo-angular/browser/',
-      status: '正在制作中',
+      status: '已完成',
     }
   ];
 }
