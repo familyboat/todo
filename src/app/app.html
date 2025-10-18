@@ -10,9 +10,14 @@
 <ul class="nav">
   @for (app of todoApps; track $index) {
   <li class="item">
+    @if (app.url) {
     <a [href]="app.url" target="_blank" rel="noopener noreferrer">
       {{ app.title }}
     </a>
+    } @else {
+    {{ app.title }}
+    }
+
     <span>
       {{ app.status }}
     </span>

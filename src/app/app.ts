@@ -21,6 +21,16 @@ export class App {
       title: 'angular todo 应用',
       url: 'https://familyboat.github.io/todo-angular/browser/',
       status: '已完成',
+    },
+    {
+      title: 'solid todo 应用',
+      url: 'https://familyboat.github.io/todo-solid/',
+      status: '已完成'
+    },
+    {
+      title: 'preact todo 应用',
+      url: '',
+      status: '被迫中止'
     }
   ];
 }
