@@ -31,6 +31,16 @@ export class App {
       title: 'preact todo 应用',
       url: '',
       status: '被迫中止'
+    },
+    {
+      title: 'react todo 应用',
+      url: 'https://familyboat.github.io/todo-react/',
+      status: '已完成'
+    },
+    {
+      title: 'svelte todo 应用',
+      url: '',
+      status: '被迫中止'
     }
   ];
 }
